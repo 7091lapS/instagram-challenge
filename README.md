@@ -1,8 +1,6 @@
-Instagram Challenge
+\#nofilter
 ===================
 
-Description
--------
 This is an instagram clone I made for one of the weekend challenges at Makers Academy. Bulding this project hugely improved my understanding of Rails, MVC, relational databases associations and AWS.
 The project was built using BDD.
 
