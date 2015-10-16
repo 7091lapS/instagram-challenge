@@ -1,8 +1,6 @@
-Instagram Challenge
+\#nofilter
 ===================
 
-Description
--------
 This is an instagram clone I made for one of the weekend challenges at Makers Academy. Bulding this project hugely improved my understanding of Rails, MVC, relational databases associations and AWS.
 The project was built using BDD.
 
@@ -19,7 +17,7 @@ Technologies
 - Rspec/Capybara, FactoryGirl, and Poltergeist to test drive the project
 - ImageMagick for photo uploads
 - Ruby on Rails to build MVC
-- PostgreSQL database with ActiveRecord 
+- PostgreSQL database with ActiveRecord
 - Amazon Web Services S3 for photo hosting
 - Javascript/JQuery to update likes without having to refresh pages
 - Foundation for styling
