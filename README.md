@@ -1,22 +1,48 @@
 Instagram Challenge
 ===================
 
-Instructions
+Description
 -------
-* Challenge time: Friday, the entire day + the weekend if you need it
-* Feel free to use Google, your notes, books, etc., but work on your own
-* You must submit a pull request to this repo with your challenge solution (or partial solution) by 9AM Monday morning.
+This is an instagram clone I made for one of the weekend challenges at Makers Academy. Bulding this project hugely improved my understanding of Rails, MVC, relational databases associations and AWS.
+The project was built using BDD.
 
-Task
+The website is hosted [here](https://instagram-clone7091.herokuapp.com)
+Functionalities
 -----
+The website has some of the functionalities of the early versions of Instagram:
+- Users can sign up, view and upload photos to the photo stream
+- Users can comment photos
+- Users can like photos
 
-Build Instagram: Simple huh!
+Technologies
+-----
+- Rspec/Capybara, FactoryGirl, and Poltergeist to test drive the project
+- ImageMagick for photo uploads
+- Ruby on Rails to build MVC
+- PostgreSQL database with ActiveRecord 
+- Amazon Web Services S3 for photo hosting
+- Javascript/JQuery to update likes without having to refresh pages
+- Foundation for styling
+- Heroku for cloud deployment
 
-As usual please start by
+Installation
+-----
+Make sure you have ImageMagick and PostgreSQL installed locally. You also need Poltergeist to run the javascript tests.
+```
+git clone https://github.com/7091lapS/instagram-challenge/
+#cd to directory
+bundle install
+#to run the server
+rails s
+#to run the tests
+rspec
+```
+To implement in future versions
+-----
+- Facebook sing-in
+- Edit and delete photos
+- Add a route to see all photos by one user
 
-* Filling out your learning plan self review for the week: https://github.com/makersacademy/learning_plan (if you haven't already)
-* Forking this repo. After cloning your fork and cd'ing into it, you'll need to [initialize a Rails app in the current directory](http://blog.jasonmeridth.com/posts/create-rails-application-in-current-directory/).
-
-Your challenge is to build Instagram using Rails. You'll need **users** who can post **pictures**, write **comments** on pictures and **like** a picture. Style it like Instagram's website (or more awesome).
-
-Bonus if you can add filters!
+Issues
+-----
+Foundation conflicts with poltergeist, therefore the javascript tests have been temporarily removed
