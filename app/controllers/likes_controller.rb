@@ -1,5 +1,4 @@
 class LikesController < ApplicationController
-
   def create
     @photo = Photo.find(params[:photo_id])
     @photo.likes.create_with_user(current_user)
