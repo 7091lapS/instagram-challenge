@@ -15,10 +15,12 @@ li {
 .comments {
   margin-left: 0px;
 }
+
 .comment-user {
   font-weight: bold;
   color: rgb(15, 120, 171);
 }
+
 .photo-user {
   font-weight: bold;
   color: rgb(15, 120, 171);
@@ -28,10 +30,14 @@ li {
   font-weight: bold;
 }
 
+.title-link {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .devise-form {
   margin-left: 40px;
   margin-right: 40px;
-
 }
 
 .field {
