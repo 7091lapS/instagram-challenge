@@ -1,4 +1,4 @@
-\#nofilter
+\#nofilter [![Build Status](https://travis-ci.org/7091lapS/instagram-challenge.svg?branch=master)](https://travis-ci.org/7091lapS/instagram-challenge)
 ===================
 
 This is an instagram clone I made for one of the weekend challenges at Makers Academy. Bulding this project hugely improved my understanding of Rails, MVC, relational databases associations and AWS.
