@@ -40,7 +40,3 @@ To implement in future versions
 - Facebook sing-in
 - Edit and delete photos
 - Add a route to see all photos by one user
-
-Issues
------
-Foundation conflicts with poltergeist, therefore the javascript tests have been temporarily removed
